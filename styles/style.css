@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+}
+
+#map{
+    height: 100vh;
+    background-color: #fff;
+    width: 100vw;
+}
+
+/* Search bar */
+.input-group{
+    position:fixed;
+    top: 10px;
+    left: 10px;
+    width: 100vw;
+    z-index: 401;
+}
+
+.btn-primary.search-btn {
+    background-color: #D71440;
+    border-color: #D71440;
+}
+
+.btn-primary.search-btn:hover {
+    background-color: #A72244;
+    border-color: #A72244;
+}
+
+@media only screen and (min-width: 501px) {
+    .input-group {
+        width: 500px;
+    }
+} /* expand search bar to 100vw on small screens */
+
+/* Autocomplete */
+.ui-autocomplete{
+    z-index: 501 !important;
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+.tooltip {
+    opacity:0.8 !important;
+}
+
+/*Room labels*/
+.leaflet-tooltip.room-labels {
+    white-space: normal;
+    color: darkred;
+    /*font-weight: bold;*/
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    line-height: 85%;
+}
+
+.leaflet-tooltip.building-labels {
+    white-space: normal;
+}
+
+input#navControl {
+    width: 30px;
+}
+
+/*Navigation*/
+.navIns-btn {
+    width: 430px !important;
+    font-size: 15px;
+}
+
+/*Buildings and level*/
+.btn-secondary.building-btn {
+    background-color: #1B75BC !important;
+    border-color: #1B75BC !important;
+}
+
+.btn-secondary.building-btn:hover, .btn-secondary.building-btn:visited, .btn-secondary.building-btn:not(:disabled):not(.disabled).active, .btn-secondary.building-btn:not(:disabled):not(.disabled):active, .show>.btn-secondary.building-btn.dropdown-toggle {
+    background-color: #0054A6!important;
+}
+
+/*Portal*/
+.btn-secondary.nav-btn {
+    background-color: #32BCAD !important;
+    border-color: #32BCAD !important;
+}
+
+.btn-secondary.nav-btn:hover, .btn-secondary.nav-btn:visited, .btn-secondary.nav-btn:not(:disabled):not(.disabled).active, .btn-secondary.nav-btn:not(:disabled):not(.disabled):active, .show>.btn-secondary.nav-btn.dropdown-toggle {
+    background-color: #258a7f !important;
+}
+
+table {
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+/*.leaflet-top.leaflet-right .leaflet-control-layers:nth-child(1) .leaflet-control-layers-toggle { TODO change image of control layer
+    background-image: !*set your value*!
+}*/
