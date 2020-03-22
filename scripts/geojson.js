@@ -507,996 +507,996 @@ var rooms = [
             "coordinates": [[[6866,6634],[6866,5409],[8058,5409],[8058,6634]]]
         }
     },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-09",
-                "name": "Lecture Theatre 1 (LT1)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[3450,3981],[3484,3657],[3772,3165],[4219,2925],[4543,2886],[4543,3912],[4477,3985]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-16",
-                "name": "Acquisitions & Collection Management Group",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[1900,1537],[1900,1252],[1567,1252],[1567,738],[2562,738],[2562,1338],[2394,1338],[2394,1297],[2231,1297],[2231,1537]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-20",
-                "name": "CITS Data Centre (Computer Room)",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4416,1215],[4416,1003],[4201,1003],[4201,648],[5298,648],[5298,1215]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-22",
-                "name": "CITS Data Centre 2",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5309,1215],[5309,648],[6506,648],[6506,1215]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-32",
-                "name": "Lecture Theatre 3 (LT3)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8319,1220],[8319,642],[9246,642],[9246,1220]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-34",
-                "name": "Lecture Theatre 4 (LT4)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9370,1220],[9370,642],[10299,642],[10299,1220]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-07",
-                "name": "Lecture Theatre 5 (LT5)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6404,3199],[6404,2624],[7160,2624],[7160,3199]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-05",
-                "name": "Lecture Theatre 6 (LT6)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7509,3199],[7509,2624],[8260,2624],[8260,3199]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-03",
-                "name": "Lecture Theatre 7 (LT7)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10277,3199],[10277,2624],[11225,2624],[11225,3199]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS3-02-01",
-                "name": "Lecture Theatre 8 (LT8)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[11346,3199],[11346,2624],[12273,2624],[12273,3199]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l2",
-                "id": "NS2.1-02-03",
-                "name": "North Spine Foodcourt",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[2718,4631],[2718,4199],[4210,4199],[4210,4631]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l3",
-                "id": "NS3-03-02",
-                "name": "Athena Reading Room",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5213,2975],[5213,1696],[7211,1696],[7211,2975]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l3",
-                "id": "NS3-03-01",
-                "name": "Lee Wee Nam Library (LWN)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4686,7301],[3690,7301],[2764,7160],[1881,6796],[1337,6222],[553,5478],[199,4590],[74,3652],[199,2724],[568,1851],[1147,1102],[1896,516],[2767,161],[3703,42],[7578,42],[7578,1510],[4650,1510],[4650,2219],[4391,2219],[4319,2358],[4904,2800],[5152,3283],[5152,4035],[4898,4525],[4399,4950],[4399,5114],[4646,5114],[4646,6152],[5113,6148],[5113,5842],[5604,5336],[6116,5842],[6116,7065],[5099,7065],[5099,6547],[4661,6541]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l3",
-                "id": "NS3-03-03",
-                "name": "Minerva Reading Room",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6820,6943],[6820,6205],[6286,6205],[6286,5341],[6065,5114],[5210,5119],[5210,4444],[5612,4444],[5612,4361],[7583,4373],[7583,6943]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS3-04-17",
-                "name": "Librarian General Office",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[1647,561],[1647,12],[2667,12],[2667,561]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS3-04-24A",
-                "name": "Centre for IT Services (CITS) Digital Media",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[2851,1035],[2851,777],[3029,777],[3027,729],[3134,668],[3183,559],[3820,559],[3864,668],[3981,740],[3980,777],[4316,777],[4316,1035]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-29",
-                "name": "CTIS Training Room",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4588,594],[4588,507],[4683,507],[4683,234],[5022,234],[5022,594]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS3-04-27",
-                "name": "High Performance Computer Centre Office",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5121,592],[5121,408],[5027,408],[5027,226],[4684,226],[4684,13],[5816,13],[5816,440],[5696,440],[5696,592]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-25",
-                "name": "High Performance Computing Centre (HPC)",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5701,593],[5701,447],[5826,447],[5826,11],[6709,11],[6709,324],[6533,324],[6533,593]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-32",
-                "name": "LICS Room",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5027,593],[5027,409],[5117,409],[5117,593]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-33",
-                "name": "Bioinformatics Research Centre",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8561,344],[8561,18],[9559,18],[9559,302],[8721,302],[8718,344]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-36",
-                "name": "Com Skill Lab 1",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8562,566],[8562,354],[8727,354],[8727,312],[8885,312],[8885,564]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-37",
-                "name": "Com Skill Lab 2",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8895,565],[8895,312],[9222,312],[9222,565]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-38",
-                "name": "Com Skill Lab 3",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9232,565],[9232,312],[9559,312],[9559,565]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-39",
-                "name": "Lecture Theatre 9 (LT9)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9567,568],[9567,17],[10065,17],[10065,568]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l41",
-                "id": "NS4-04-41",
-                "name": "Lecture Theatre 10 (LT10)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10074,568],[10074,17],[10572,17],[10572,568]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l42",
-                "id": "NS2-04-15",
-                "name": "Lecture Theatre 11 (LT11)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6540,2613],[6540,2065],[7034,2065],[7034,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l42",
-                "id": "NS2-04-13",
-                "name": "Lecture Theatre 12 (LT12)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7046,2613],[7046,2065],[7540,2065],[7540,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l42",
-                "id": "NS2-04-11",
-                "name": "Lecture Theatre 13 (LT13)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7552,2613],[7552,2065],[8046,2065],[8046,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l42",
-                "id": "NS2-04-9",
-                "name": "Lecture Theatre 14 (LT14)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8058,2613],[8058,2065],[8552,2065],[8552,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l43",
-                "id": "NS2-04-7",
-                "name": "Lecture Theatre 15 (LT15)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10579,2613],[10579,2065],[11074,2065],[11074,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l43",
-                "id": "NS2-04-5",
-                "name": "Lecture Theatre 16 (LT16)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[11084,2613],[11084,2065],[11579,2065],[11579,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l43",
-                "id": "NS2-04-3",
-                "name": "Lecture Theatre 17 (LT17)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[11589,2613],[11589,2065],[12084,2065],[12084,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l43",
-                "id": "NS2-04-1",
-                "name": "Lecture Theatre 18 (LT18)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[12094,2613],[12094,2065],[12589,2065],[12589,2613]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS3-05-43",
-                "name": "Library Staff Office",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[1961,638],[1961,6],[2762,6],[2762,638]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS3-05-78",
-                "name": "Metis Reading Room",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[3278,392],[3278,4],[3938,4],[3938,392]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-79",
-                "name": "Tutorial Room 1 (TR1)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4469,618],[4469,353],[4935,353],[4935,618]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-80",
-                "name": "Tutorial Room 2 (TR2)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4580,343],[4580,88],[5060,88],[5060,343]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-81",
-                "name": "Tutorial Room 3 (TR3)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[4945,616],[4945,352],[5407,352],[5407,616]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-82",
-                "name": "Tutorial Room 4 (TR4)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5137,343],[5137,88],[5617,88],[5617,343]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-83",
-                "name": "Tutorial Room 5 (TR5)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5418,615],[5418,351],[5880,351],[5880,615]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-84",
-                "name": "Tutorial Room 6 (TR6)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5694,343],[5694,88],[6174,88],[6174,343]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-85",
-                "name": "Tutorial Room 7 (TR7)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5889,615],[5889,352],[6351,352],[6351,615]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-86",
-                "name": "Tutorial Room 8 (TR8)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6251,343],[6251,88],[6731,88],[6731,343]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-87",
-                "name": "Tutorial Room 9 (TR9)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6363,615],[6363,351],[6825,351],[6825,615]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-93",
-                "name": "Tutorial Room 15 (TR15)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8513,623],[8513,369],[8987,369],[8987,623]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-94",
-                "name": "Tutorial Room 16 (TR16)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8638,335],[8638,97],[9108,97],[9108,335]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-95",
-                "name": "Tutorial Room 17 (TR17)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9001,623],[9001,361],[9462,361],[9462,623]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-96",
-                "name": "Tutorial Room 18 (TR18)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9190,335],[9190,97],[9660,97],[9660,335]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-97",
-                "name": "Tutorial Room 19 (TR19)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9476,623],[9476,361],[9937,361],[9937,623]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-98",
-                "name": "Tutorial Room 20 (TR20)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9742,335],[9742,97],[10212,97],[10212,335]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-99",
-                "name": "Tutorial Room 21 (TR21)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9951,623],[9951,361],[10412,361],[10412,623]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-100",
-                "name": "Tutorial Room 22 (TR22)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10294,335],[10294,97],[10764,97],[10764,335]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l51",
-                "id": "NS4-05-101",
-                "name": "Tutorial Room 23 (TR23)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10426,623],[10426,361],[10887,361],[10887,623]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-36",
-                "name": "Office of Health & Safety",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[5316,2790],[5316,2411],[5316,2410],[4957,2410],[4957,2144],[4978,2072],[5012,2025],[51299,1977],[5253,2025],[5290,2072],[5311,2144],[5311,2294],[5969,2294],[5969,2598],[6328,2598],[6328,2790]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-22",
-                "name": "Tutorial Room 29 (TR29)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8405,2438],[8405,2180],[8865,2180],[8865,2438]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-23",
-                "name": "Tutorial Room 30 (TR30)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[8284,2702],[8284,2452],[8758,2452],[8758,2702]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-24",
-                "name": "Tutorial Room 31 (TR31)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7927,2438],[7927,2180],[8387,2180],[8387,2438]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-25",
-                "name": "Tutorial Room 32 (TR32)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7724,2702],[7724,2452],[8198,2452],[8198,2702]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-26",
-                "name": "Tutorial Room 33 (TR33)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7449,2438],[7449,2180],[7909,2180],[7909,2438]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-27",
-                "name": "Tutorial Room 34 (TR34)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[7164,2702],[7164,2452],[7638,2452],[7638,2702]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-28",
-                "name": "Tutorial Room 35 (TR35)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6971,2438],[6971,2180],[7431,2180],[7431,2438]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-29",
-                "name": "Tutorial Room 36 (TR36)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6604,2702],[6604,2452],[7078,2452],[7078,2702]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-30",
-                "name": "Tutorial Room 37 (TR37)",
-                "roomType": "academic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[6493,2438],[6493,2180],[6953,2180],[6953,2438]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS2-05-01",
-                "name": "Fraunhofer Singapore",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[10394,2791],[10394,2411],[10542,2411],[10542,2197],[12930,2197],[12930,2791]]]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "building": "ms",
-                "level": "l52",
-                "id": "NS1-05-01A",
-                "name": "Fraunhofer Singapore Annex",
-                "roomType": "nonacademic",
-                "popupContent": ""
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [[[9379,2791],[9379,2414],[10032,2414],[10032,2791]]]
-            }
-        },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-09",
+            "name": "Lecture Theatre 1 (LT1)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[5629,3981],[5663,3657],[5951,3165],[6398,2925],[6722,2886],[6722,3912],[6656,3985]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-16",
+            "name": "Acquisitions & Collection Management Group",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[4079,1537],[4079,1252],[3746,1252],[3746,738],[4741,738],[4741,1338],[4573,1338],[4573,1297],[4410,1297],[4410,1537]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-20",
+            "name": "CITS Data Centre (Computer Room)",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[6595,1215],[6595,1003],[6380,1003],[6380,648],[7477,648],[7477,1215]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-22",
+            "name": "CITS Data Centre 2",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7488,1215],[7488,648],[8685,648],[8685,1215]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-32",
+            "name": "Lecture Theatre 3 (LT3)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10498,1220],[10498,642],[11425,642],[11425,1220]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-34",
+            "name": "Lecture Theatre 4 (LT4)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11549,1220],[11549,642],[12478,642],[12478,1220]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-07",
+            "name": "Lecture Theatre 5 (LT5)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8583,3199],[8583,2624],[9339,2624],[9339,3199]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-05",
+            "name": "Lecture Theatre 6 (LT6)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9688,3199],[9688,2624],[10439,2624],[10439,3199]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-03",
+            "name": "Lecture Theatre 7 (LT7)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12456,3199],[12456,2624],[13404,2624],[13404,3199]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS3-02-01",
+            "name": "Lecture Theatre 8 (LT8)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[13525,3199],[13525,2624],[14452,2624],[14452,3199]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l2",
+            "id": "NS2.1-02-03",
+            "name": "North Spine Foodcourt",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[4897,4631],[4897,4199],[6389,4199],[6389,4631]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l3",
+            "id": "NS3-03-02",
+            "name": "Athena Reading Room",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[5213,2975],[5213,1696],[7211,1696],[7211,2975]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l3",
+            "id": "NS3-03-01",
+            "name": "Lee Wee Nam Library (LWN)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[4686,7301],[3690,7301],[2764,7160],[1881,6796],[1337,6222],[553,5478],[199,4590],[74,3652],[199,2724],[568,1851],[1147,1102],[1896,516],[2767,161],[3703,42],[7578,42],[7578,1510],[4650,1510],[4650,2219],[4391,2219],[4319,2358],[4904,2800],[5152,3283],[5152,4035],[4898,4525],[4399,4950],[4399,5114],[4646,5114],[4646,6152],[5113,6148],[5113,5842],[5604,5336],[6116,5842],[6116,7065],[5099,7065],[5099,6547],[4661,6541]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l3",
+            "id": "NS3-03-03",
+            "name": "Minerva Reading Room",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[6820,6943],[6820,6205],[6286,6205],[6286,5341],[6065,5114],[5210,5119],[5210,4444],[5612,4444],[5612,4361],[7583,4373],[7583,6943]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS3-04-17",
+            "name": "Librarian General Office",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[3806,561],[3806,12],[4826,12],[4826,561]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS3-04-24A",
+            "name": "Centre for IT Services (CITS) Digital Media",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[5010,1035],[5010,777],[5188,777],[5186,729],[5293,668],[5342,559],[5979,559],[6023,668],[6140,740],[6139,777],[6475,777],[6475,1035]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-29",
+            "name": "CTIS Training Room",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[6747,594],[6747,507],[6842,507],[6842,234],[7181,234],[7181,594]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS3-04-27",
+            "name": "High Performance Computer Centre Office",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7280,592],[7280,408],[7186,408],[7186,226],[6843,226],[6843,13],[7975,13],[7975,440],[7855,440],[7855,592]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-25",
+            "name": "High Performance Computing Centre (HPC)",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7860,593],[7860,447],[7985,447],[7985,11],[8868,11],[8868,324],[8692,324],[8692,593]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-32",
+            "name": "LICS Room",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7186,593],[7186,409],[7276,409],[7276,593]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-33",
+            "name": "Bioinformatics Research Centre",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10720,344],[10720,18],[11718,18],[11718,302],[10880,302],[10877,344]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-36",
+            "name": "Com Skill Lab 1",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10721,566],[10721,354],[10886,354],[10886,312],[11044,312],[11044,564]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-37",
+            "name": "Com Skill Lab 2",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11054,565],[11054,312],[11381,312],[11381,565]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-38",
+            "name": "Com Skill Lab 3",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11391,565],[11391,312],[11718,312],[11718,565]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-39",
+            "name": "Lecture Theatre 9 (LT9)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11726,568],[11726,17],[12224,17],[12224,568]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l41",
+            "id": "NS4-04-41",
+            "name": "Lecture Theatre 10 (LT10)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12233,568],[12233,17],[12731,17],[12731,568]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l42",
+            "id": "NS2-04-15",
+            "name": "Lecture Theatre 11 (LT11)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8699,2613],[8699,2065],[9193,2065],[9193,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l42",
+            "id": "NS2-04-13",
+            "name": "Lecture Theatre 12 (LT12)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9205,2613],[9205,2065],[9699,2065],[9699,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l42",
+            "id": "NS2-04-11",
+            "name": "Lecture Theatre 13 (LT13)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9711,2613],[9711,2065],[10205,2065],[10205,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l42",
+            "id": "NS2-04-9",
+            "name": "Lecture Theatre 14 (LT14)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10217,2613],[10217,2065],[10711,2065],[10711,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l43",
+            "id": "NS2-04-7",
+            "name": "Lecture Theatre 15 (LT15)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12738,2613],[12738,2065],[13233,2065],[13233,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l43",
+            "id": "NS2-04-5",
+            "name": "Lecture Theatre 16 (LT16)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[13243,2613],[13243,2065],[13738,2065],[13738,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l43",
+            "id": "NS2-04-3",
+            "name": "Lecture Theatre 17 (LT17)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[13748,2613],[13748,2065],[14243,2065],[14243,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l43",
+            "id": "NS2-04-1",
+            "name": "Lecture Theatre 18 (LT18)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[14253,2613],[14253,2065],[14748,2065],[14748,2613]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS3-05-43",
+            "name": "Library Staff Office",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[4398,638],[4398,6],[5199,6],[5199,638]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS3-05-78",
+            "name": "Metis Reading Room",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[5715,392],[5715,4],[6375,4],[6375,392]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-79",
+            "name": "Tutorial Room 1 (TR1)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[6906,618],[6906,353],[7372,353],[7372,618]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-80",
+            "name": "Tutorial Room 2 (TR2)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7017,343],[7017,88],[7497,88],[7497,343]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-81",
+            "name": "Tutorial Room 3 (TR3)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7382,616],[7382,352],[7844,352],[7844,616]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-82",
+            "name": "Tutorial Room 4 (TR4)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7574,343],[7574,88],[8054,88],[8054,343]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-83",
+            "name": "Tutorial Room 5 (TR5)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7855,615],[7855,351],[8317,351],[8317,615]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-84",
+            "name": "Tutorial Room 6 (TR6)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8131,343],[8131,88],[8611,88],[8611,343]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-85",
+            "name": "Tutorial Room 7 (TR7)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8326,615],[8326,352],[8788,352],[8788,615]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-86",
+            "name": "Tutorial Room 8 (TR8)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8688,343],[8688,88],[9168,88],[9168,343]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-87",
+            "name": "Tutorial Room 9 (TR9)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8800,615],[8800,351],[9262,351],[9262,615]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-93",
+            "name": "Tutorial Room 15 (TR15)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10950,623],[10950,369],[11424,369],[11424,623]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-94",
+            "name": "Tutorial Room 16 (TR16)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11075,335],[11075,97],[11545,97],[11545,335]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-95",
+            "name": "Tutorial Room 17 (TR17)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11438,623],[11438,361],[11899,361],[11899,623]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-96",
+            "name": "Tutorial Room 18 (TR18)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11627,335],[11627,97],[12097,97],[12097,335]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-97",
+            "name": "Tutorial Room 19 (TR19)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11913,623],[11913,361],[12374,361],[12374,623]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-98",
+            "name": "Tutorial Room 20 (TR20)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12179,335],[12179,97],[12649,97],[12649,335]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-99",
+            "name": "Tutorial Room 21 (TR21)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12388,623],[12388,361],[12849,361],[12849,623]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-100",
+            "name": "Tutorial Room 22 (TR22)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12731,335],[12731,97],[13201,97],[13201,335]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l51",
+            "id": "NS4-05-101",
+            "name": "Tutorial Room 23 (TR23)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12863,623],[12863,361],[13324,361],[13324,623]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-36",
+            "name": "Office of Health & Safety",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[7753,2790],[7753,2411],[7753,2410],[7394,2410],[7394,2144],[7415,2072],[7449,2025],[53736,1977],[7690,2025],[7727,2072],[7748,2144],[7748,2294],[8406,2294],[8406,2598],[8765,2598],[8765,2790]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-22",
+            "name": "Tutorial Room 29 (TR29)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10842,2438],[10842,2180],[11302,2180],[11302,2438]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-23",
+            "name": "Tutorial Room 30 (TR30)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10721,2702],[10721,2452],[11195,2452],[11195,2702]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-24",
+            "name": "Tutorial Room 31 (TR31)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10364,2438],[10364,2180],[10824,2180],[10824,2438]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-25",
+            "name": "Tutorial Room 32 (TR32)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[10161,2702],[10161,2452],[10635,2452],[10635,2702]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-26",
+            "name": "Tutorial Room 33 (TR33)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9886,2438],[9886,2180],[10346,2180],[10346,2438]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-27",
+            "name": "Tutorial Room 34 (TR34)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9601,2702],[9601,2452],[10075,2452],[10075,2702]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-28",
+            "name": "Tutorial Room 35 (TR35)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9408,2438],[9408,2180],[9868,2180],[9868,2438]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-29",
+            "name": "Tutorial Room 36 (TR36)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[9041,2702],[9041,2452],[9515,2452],[9515,2702]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-30",
+            "name": "Tutorial Room 37 (TR37)",
+            "roomType": "academic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[8930,2438],[8930,2180],[9390,2180],[9390,2438]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS2-05-01",
+            "name": "Fraunhofer Singapore",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[12831,2791],[12831,2411],[12979,2411],[12979,2197],[15367,2197],[15367,2791]]]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "ms",
+            "level": "l52",
+            "id": "NS1-05-01A",
+            "name": "Fraunhofer Singapore Annex",
+            "roomType": "nonacademic",
+            "popupContent": ""
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[[11816,2791],[11816,2414],[12469,2414],[12469,2791]]]
+        }
+    },
         {
            "type": "Feature",
            "properties": {
@@ -4223,7 +4223,7 @@ var rooms = [
    },
    "geometry": {
       "type": "Polygon",
-      "coordinates": [[[6179,2280],[6179,815],[7953,815],[7964,2280]]]
+      "coordinates": [[[2828,2603],[2828,907],[5486,907],[5486,2603]]]
    }
 },
  {
@@ -4238,7 +4238,7 @@ var rooms = [
    },
    "geometry": {
       "type": "Polygon",
-      "coordinates": [[[4765,2280],[4765,815],[6164,815],[6164,2280]]]
+      "coordinates": [[[6546,2601],[6546,910],[9831,910],[9831,2601]]]
    }
 },
  {
@@ -4253,7 +4253,7 @@ var rooms = [
    },
    "geometry": {
       "type": "Polygon",
-      "coordinates": [[[8877,2280],[8877,815],[12252,815],[12252,2280]]]
+      "coordinates": [[[9852,2601],[9852,910],[11463,910],[11463,1982],[10955,1982],[10955,2601]]]
    }
 },
  {
@@ -4268,7 +4268,7 @@ var rooms = [
    },
    "geometry": {
       "type": "Polygon",
-      "coordinates": [[[12256,2280],[12256,815],[13164,815],[13164,2280]]]
+      "coordinates": [[[12528,2601],[12528,910],[13556,910],[13556,2601]]]
    }
 },
  {
@@ -4283,7 +4283,7 @@ var rooms = [
    },
    "geometry": {
       "type": "Polygon",
-      "coordinates": [[[14090,2280],[14090,815],[17247,815],[17247,2280]]]
+      "coordinates": [[[13572,2601],[13572,910],[15159,910],[15159,2601]]]
    }
 },
  {
@@ -7951,7 +7951,7 @@ var rooms = [
       "level": "b2",
       "id": "N1-B2b-13",
       "name": "Engineering Software Teaching Laboratory (EST Lab) 1 & 2",
-      "roomType": "nonacademic",
+      "roomType": "academic",
       "popupContent": ""
    },
    "geometry": {
@@ -7966,7 +7966,7 @@ var rooms = [
       "level": "b2",
       "id": "N1-B2b-19",
       "name": "Geotechnics Research Lab",
-      "roomType": "nonacademic",
+      "roomType": "academic",
       "popupContent": ""
    },
    "geometry": {
@@ -8011,7 +8011,7 @@ var rooms = [
       "level": "b2",
       "id": "N1-B2c-26",
       "name": "Geotechnic Laboratory",
-      "roomType": "nonacademic",
+      "roomType": "academic",
       "popupContent": ""
    },
    "geometry": {
