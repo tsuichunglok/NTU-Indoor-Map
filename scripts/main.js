@@ -35,8 +35,8 @@ map.zoomControl.setPosition('bottomright');
 
 //tooltip
 $(document).ready(function () {
-    $('#fromTerm').tooltip({'trigger': 'hover', 'title': 'Search here. Or if you wish to look for directions, enter the starting room here. Then, enter the ending room in the next field.'});
-    $('#toTerm').tooltip({'trigger': 'hover', 'title': 'For directions, enter the ending room here. To search for a room, enter in the field next to this.'});
+    // $('#fromTerm').tooltip({'trigger': 'hover', 'title': 'Search here. Or if you wish to look for directions, enter the starting room here. Then, enter the ending room in the next field.'});
+    // $('#toTerm').tooltip({'trigger': 'hover', 'title': 'For directions, enter the ending room here. To search for a room, enter in the field next to this.'});
     $('#buildings').tooltip({'trigger': 'hover', 'title': 'Click on the building you wish to navigate to','placement': 'bottom'});
     $('#portalChoice').tooltip({'trigger': 'hover', 'title': 'Choose whether to take the stairs or the lift','placement': 'right'});
 });

@@ -11015,7 +11015,7 @@ var graphN1b1 = [
         "id": "n1b1bc03",
         "name": "lobby N1-B1bc",
         "coordinates": [ 10841, 893 ],
-        "connected": ['n1b1bc06','n1b1bc02','n1b1bc04',n1b1b13],
+        "connected": ['n1b1bc06','n1b1bc02','n1b1bc04','n1b1b13'],
         "corresponding": ""
     },
     {
