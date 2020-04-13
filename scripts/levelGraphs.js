@@ -269,35 +269,28 @@ var graphN4l2 = [
         "id": "n4l2a21",
         "name": "entry Male N4-02a-T1",
         "coordinates": [ 2430, 807 ],
-        "connected": ['n4l2a01','N4-02a-T1','n4l2a03'],
+        "connected": ['n4l2a01','N4-02a-T1','n4l2a03','n4l2a22'],
         "corresponding": ""
     },
     {
         "id": "n4l2a22",
         "name": "entry Staff Room",
         "coordinates": [ 2635, 1118 ],
-        "connected": ['N4-02a-17','n4l2a23'],
+        "connected": ['N4-02a-17','n4l2a23','n4l2a03','n4l2a21'],
         "corresponding": ""
     },
     {
         "id": "n4l2a23",
         "name": "entry Staff Room",
         "coordinates": [ 2964, 1118 ],
-        "connected": ['N4-02a-18','n4l2a22','n4l2a24'],
-        "corresponding": ""
-    },
-    {
-        "id": "n4l2a24",
-        "name": "entry Staff Room",
-        "coordinates": [ 3345, 1118 ],
-        "connected": ['N4-02a-19','n4l2a23','n4l2a25'],
+        "connected": ['N4-02a-18','n4l2a22','n4l2a25'],
         "corresponding": ""
     },
     {
         "id": "n4l2a25",
         "name": "entry Staff Room",
         "coordinates": [ 3345, 1118 ],
-        "connected": ['N4-02a-20','n4l2a24','n4l2a26'],
+        "connected": ['N4-02a-20','n4l2a23','n4l2a26'],
         "corresponding": ""
     },
     {
@@ -437,14 +430,14 @@ var graphN4l2 = [
         "id": "N4-02a-19",
         "name": "SCSE Filing Room",
         "coordinates": [ 3345, 1289 ],
-        "connected": ['n4l2a24'],
+        "connected": ['N4-02a-20'],
         "corresponding": ""
     },
     {
         "id": "N4-02a-20",
         "name": "Sec. Room Chair",
         "coordinates": [ 3345, 1289 ],
-        "connected": ['n4l2a25'],
+        "connected": ['n4l2a25','N4-02a-19'],
         "corresponding": ""
     },
     {
@@ -591,7 +584,7 @@ var graphN4l2 = [
         "id": "n4l2ab01",
         "name": "lobby N4-02ab",
         "coordinates": [ 6786, 873 ],
-        "connected": ['n4l2a43','n4l2ab02','n4l2ab03'],
+        "connected": ['n4l2a43','n4l2ab02','n4l2ab03','n4l2b01'],
         "corresponding": ""
     },
     {
@@ -948,7 +941,7 @@ var graphN4l2 = [
         "id": "n4l2b33",
         "name": "entry Staff Room/Academic Services Room",
         "coordinates": [ 10026, 1118 ],
-        "connected": ['N4-02b-63','N4-02-70','n4l2b32','n4l2b34'],
+        "connected": ['N4-02b-63','N4-02b-70','n4l2b32','n4l2b34'],
         "corresponding": ""
     },
     {
@@ -2557,35 +2550,35 @@ var graphN4b1 = [
         "id": "N4b1-SC3",
         "name": "Stairs (N4-SC3@B1)",
         "coordinates": [ 5876, 274 ],
-        "connected": ['n4b1c03'],
+        "connected": ['n4b1c04'],
         "corresponding": ['N4l2-SC3','N4l1-SC3']
     },
     {
         "id": "N4-B1c-20",
         "name": "Siggraph Room",
         "coordinates": [ 5876, 384 ],
-        "connected": ['n4b1c04'],
+        "connected": ['n4b1c05'],
         "corresponding": ""
     },
     {
         "id": "N4-B1c-T4",
         "name": "Female Toilet",
         "coordinates": [ 5876, 595 ],
-        "connected": ['n4b1c05'],
+        "connected": ['n4b1c06'],
         "corresponding": ""
     },
     {
         "id": "N4b1-SS3",
         "name": "Stairs (B1)",
         "coordinates": [ 5781, 19 ],
-        "connected": ['n4b1c06'],
+        "connected": ['n4b1c03'],
         "corresponding": ['N4l1-SS3','N4b2-SS3','N4b3-SS3','N4b4-SS3']
     },
     {
         "id": "n4b1c08",
         "name": "joint N4b1-SS4",
         "coordinates": [ 5800, 647 ],
-        "connected": ['n4b1c07'],
+        "connected": ['n4b1c07','N4b1-SS4'],
         "corresponding": ""
     },
     {
@@ -5232,7 +5225,7 @@ var graphN3l1 = [
         "id": "n3l1bc04",
         "name": "entry Male N3-01b-T3",
         "coordinates": [ 10812, 919 ],
-        "connected": ['N3-01b-T3','n3l1bc03'],
+        "connected": ['N3-01b-T3','n3l1bc03','n3l1bc07'],
         "corresponding": ""
     },
     {
@@ -5252,7 +5245,7 @@ var graphN3l1 = [
     {
         "id": "n3l1bc07",
         "name": "joint N3-01bc lobby top ",
-        "coordinates": [ 10948, 471 ],
+        "coordinates": [ 10812, 471 ],
         "connected": ['n3l1ab06','n3l1bc04','n3l1c03'],
         "corresponding": ""
     },
@@ -5295,21 +5288,21 @@ var graphN3l1 = [
         "id": "n3l1c01",
         "name": "entry CAE Visualisation Room",
         "coordinates": [ 12552, 1723 ],
-        "connected": ['n3l1bc01','n3l1c02'],
+        "connected": ['n3l1bc01','n3l1c02','N3-01c-11'],
         "corresponding": ""
     },
     {
         "id": "n3l1c02",
         "name": "entry Design & Human Factors Research",
         "coordinates": [ 13637, 1723 ],
-        "connected": ['n3l1c01'],
+        "connected": ['n3l1c01','N3-01c-13','n3l1c04'],
         "corresponding": ""
     },
     {
         "id": "N3-01c-11",
         "name": "CAE Visualisation Room/entry Visualisation Immersion",
         "coordinates": [ 12552, 1552 ],
-        "connected": ['n3l1c01'],
+        "connected": ['n3l1c01','N3-01c-17'],
         "corresponding": ""
     },
     {
@@ -6074,7 +6067,7 @@ var graphN3b3 = [
         "id": "n3b3c01",
         "name": "entry Biological Process Researcher Room 3",
         "coordinates": [ 14650, 760 ],
-        "connected": ['N3-B3c-21','n3b3c02','n3b3bc05'],
+        "connected": ['N3-B3c-21','n3b3c02','n3b3bc01'],
         "corresponding": ""
     },
     {
@@ -6326,14 +6319,14 @@ var graphN3b4 = [
         "corresponding": ['N3b3-SC2', 'N3b2-SC2', 'N3b1-SC2', 'N3l1-SC2', 'N3l2-SC2']
     },
     {
-        "id": "N3b2-SS3",
+        "id": "N3b4-SS3",
         "name": "Stairs (B4)",
         "coordinates": [ 16659, 303 ],
         "connected": ['n3b4c01'],
         "corresponding": ['N3b3-SS3', 'N3b2-SS3', 'N3b1-SS3', 'N3l1-SS3']
     },
     {
-        "id": "N3b2-SS4",
+        "id": "N3b4-SS4",
         "name": "Stairs (B4)",
         "coordinates": [ 16659, 3936 ],
         "connected": ['n3b4c02'],
@@ -6343,14 +6336,14 @@ var graphN3b4 = [
         "id": "n3b4c01",
         "name": "entry N3b4-SS3",
         "coordinates": [ 16203, 303 ],
-        "connected": ['N3b2-SS3','n3b4c03'],
+        "connected": ['N3b4-SS3','n3b4c03'],
         "corresponding": ""
     },
     {
         "id": "n3b4c02",
         "name": "entry N3b4-SS4",
         "coordinates": [ 16203, 3936 ],
-        "connected": ['N3b2-SS4','n3b4c04'],
+        "connected": ['N3b4-SS4','n3b4c04'],
         "corresponding": ""
     },
     {
@@ -6373,8 +6366,8 @@ var graphN2l1 = [
     {
         "id": "n2l1a01",
         "name": "Main Door",
-        "coordinates": [ 15097, 685 ],
-        "connected": ['n2l1a02'],
+        "coordinates": [ 15364, 685 ],
+        "connected": ['n2l1a02','n2l1a27'],
         "corresponding": ""
     },
     {
@@ -6527,30 +6520,44 @@ var graphN2l1 = [
     {
         "id": "n2l1a23",
         "name": "int EOS meeting room 1",
-        "coordinates": [ 14129, 635 ],
+        "coordinates": [ 14527, 405 ],
         "connected": ['N2-01a-14','n2l1a03'],
         "corresponding": ""
     },
     {
         "id": "n2l1a24",
         "name": "int EOS meeting room 2",
-        "coordinates": [ 13419, 735 ],
+        "coordinates": [ 12159, 405 ],
         "connected": ['N2-01a-14','n2l1a09'],
         "corresponding": ""
     },
     {
         "id": "n2l1a25",
         "name": "int Student and Visitors 1",
-        "coordinates": [ 14527, 405 ],
+        "coordinates": [ 14129, 635 ],
         "connected": ['N2-01a-12','n2l1a03'],
         "corresponding": ""
     },
     {
         "id": "n2l1a26",
         "name": "int Student and Visitors 2",
-        "coordinates": [ 12159, 405 ],
+        "coordinates": [ 13419, 735 ],
         "connected": ['N2-01a-12','n2l1a16'],
         "corresponding": ""
+    },
+    {
+        "id": "n2l1a27",
+        "name": "entry N2l1-MS2",
+        "coordinates": [ 15364, 1080 ],
+        "connected": ['N2l1-MS2','n2l1a01'],
+        "corresponding": ""
+    },
+    {
+        "id": "N2l1-MS2",
+        "name": "Stairs (L1)",
+        "coordinates": [15221,1080],
+        "connected": ['n2l1a27'],
+        "corresponding": ['N2b1-MS2']
     },
     {
         "id": "N2-01a-01",
@@ -6660,14 +6667,14 @@ var graphN2l1 = [
     {
         "id": "N2-01a-12",
         "name": "Student and Vistors Office",
-        "coordinates": [ 13281, 405 ],
+        "coordinates": [ 13774, 645 ],
         "connected": ['n2l1a25','n2l1a26'],
         "corresponding": ""
     },
     {
         "id": "N2-01a-14",
         "name": "EOS Meeting Room",
-        "coordinates": [ 13774, 645 ],
+        "coordinates": [ 12797,396 ],
         "connected": ['n2l1a23','n2l1a24'],
         "corresponding": ""
     },
@@ -6715,7 +6722,7 @@ var graphN2l1 = [
     },
     {
         "id": "N2l1-SC1",
-        "name": "Stairs (N2-SC2@L1)",
+        "name": "Stairs (N2-SC1@L1)",
         "coordinates": [ 10651, 431 ],
         "connected": ['n2l1ab01'],
         "corresponding": ['N2b5-SC1', 'N2b4-SC1', 'N2b3-SC1', 'N2b2-SC1', 'N2b1-SC1']
@@ -7599,11 +7606,11 @@ var graphN2l1 = [
 
 var graphN2b1 = [
     {
-        "id": "n2b1a01",
-        "name": "Main Door",
+        "id": "N2b1-MS2",
+        "name": "Stairs (B1)",
         "coordinates": [ 15247, 1135 ],
         "connected": ['n2b1a02'],
-        "corresponding": ""
+        "corresponding": ['N2l1-MS2']
     },
     {
         "id": "n2b1a02",
@@ -7621,7 +7628,7 @@ var graphN2b1 = [
     },
     {
         "id": "N2-B2a-01",
-        "name": "LT19",
+        "name": "Lecture Theatre 19 (LT19)",
         "coordinates": [ 14381, 1208 ],
         "connected": ['n2b1a03'],
         "corresponding": ""
@@ -8630,14 +8637,14 @@ var graphN2b4 = [
         "corresponding": ""
     },
     {
-        "id": "N2b5-1n2",
+        "id": "N2b4-1n2",
         "name": "Lift (N2-1&2@B4)",
         "coordinates": [ 12473, 538 ],
         "connected": ['n2b4ab04'],
         "corresponding": ['N2b5-1n2', 'N2b3-1n2', 'N2b2-1n2', 'N2b1-1n2', 'N2l1-1n2']
     },
     {
-        "id": "N2b5-SC1",
+        "id": "N2b4-SC1",
         "name": "Stairs (N2-SC1@B4)",
         "coordinates": [ 12908, 572 ],
         "connected": ['n2b4ab06'],
@@ -8986,10 +8993,45 @@ var graphN2b5 = [
 
 var graphN1l1 = [
     {
+        "id": "n1l1o01",
+        "name": "entry NS1l1-N1-1/NS2l1-N1-SC2",
+        "coordinates": [1917,147],
+        "connected": ['n1l1a01','NS1l1-N1-1','NS2l1-N1-SC2'],
+        "corresponding": ""
+    },
+    {
+        "id": "NS1l1-N1-1",
+        "name": "Lift (NS1-1@L1)",
+        "coordinates": [1814,147],
+        "connected": ['n1l1o01'],
+        "corresponding": ['NS1b1-N1-1']
+    },
+    {
+        "id": "NS2l1-N1-SC2",
+        "name": "Stairs (NS1-SC@L1)",
+        "coordinates": [2041,147],
+        "connected": ['n1l1o01'],
+        "corresponding": ['NS2b1-N1-SC2']
+    },
+    {
+        "id": "n1l1o02",
+        "name": "entry NS2l1-N1-SC3",
+        "coordinates": [1917,1433],
+        "connected": ['n1l1a01','NS2l1-N1-SC3'],
+        "corresponding": ""
+    },
+    {
+        "id": "NS2l1-N1-SC3",
+        "name": "Stairs (NS1-SC3@L1)",
+        "coordinates": [1814,1433],
+        "connected": ['n1l1o02'],
+        "corresponding": ['NS2b1-N1-SC3']
+    },
+    {
         "id": "n1l1a01",
         "name": "Main Door",
-        "coordinates": [ 2056, 771 ],
-        "connected": ['n1l1a02'],
+        "coordinates": [ 1917, 771 ],
+        "connected": ['n1l1a02','n1l1o01','n1l1o02'],
         "corresponding": ""
     },
     {
@@ -9429,7 +9471,7 @@ var graphN1l1 = [
     {
         "id": "n1l1a35",
         "name": "joint top right N1-01a",
-        "coordinates": [ 6370, 408 ],
+        "coordinates": [ 6370, 599 ],
         "connected": ['n1l1a21','n1l1a36'],
         "corresponding": ""
     },
@@ -9437,7 +9479,7 @@ var graphN1l1 = [
         "id": "n1l1a36",
         "name": "right entry N1-01a",
         "coordinates": [ 6370, 845 ],
-        "connected": ['n1l1a35','n1l1a34'],
+        "connected": ['n1l1a35','n1l1a34','n1l1ab02'],
         "corresponding": ""
     },
     {
@@ -9451,7 +9493,7 @@ var graphN1l1 = [
         "id": "n1l1ab02",
         "name": "lobby N1-01ab",
         "coordinates": [ 6845, 845 ],
-        "connected": ['n1l1a36','n1l1b02'],
+        "connected": ['n1l1a36','n1l1b02','n1l1ab01','n1l1ab03'],
         "corresponding": ""
     },
     {
@@ -9507,21 +9549,21 @@ var graphN1l1 = [
         "id": "n1l1b04",
         "name": "entry Staff Room",
         "coordinates": [ 7606, 599 ],
-        "connected": ['N1-01b-35','n1l1b01','n1l1b05'],
+        "connected": ['N1-01b-35','N1-01b-61','n1l1b01','n1l1b05'],
         "corresponding": ""
     },
     {
         "id": "n1l1b05",
         "name": "entry Staff Room",
         "coordinates": [ 7703, 599 ],
-        "connected": ['N1-01b-36','n1l1b04','n1l1b06'],
+        "connected": ['N1-01b-36','N1-01b-62','n1l1b04','n1l1b06'],
         "corresponding": ""
     },
     {
         "id": "n1l1b06",
         "name": "entry Staff Room",
         "coordinates": [ 7916, 599 ],
-        "connected": ['N1-01b-63','n1l1b05','n1l1b07'],
+        "connected": ['N1-01b-63','N1-01b-63','n1l1b05','n1l1b07'],
         "corresponding": ""
     },
     {
@@ -9962,7 +10004,7 @@ var graphN1l1 = [
         "id": "n1l1bc02",
         "name": "lobby N1-01bc",
         "coordinates": [ 10817, 848 ],
-        "connected": ['N1-01b-T3','n1l1b33','n1l1c02'],
+        "connected": ['n1l1b33','n1l1c02','n1l1bc01','n1l1bc03'],
         "corresponding": ""
     },
     {
@@ -10620,45 +10662,45 @@ var graphN1l1 = [
 
 var graphN1b1 = [
     {
-        "id": "NS1b1-1",
-        "name": "Lift (B1)",
+        "id": "NS1b1-N1-1",
+        "name": "Lift (NS1-1@B1)",
         "coordinates": [ 2116, 200 ],
         "connected": ['n1b1o01'],
-        "corresponding": ""
+        "corresponding": ['NS1l1-N1-1']
     },
     {
-        "id": "NS2b1-SC2",
-        "name": "Stairs (B1)",
+        "id": "NS2b1-N1-SC2",
+        "name": "Stairs (NS1-SC2@B1)",
         "coordinates": [ 2343, 200 ],
         "connected": ['n1b1o01'],
-        "corresponding": ""
+        "corresponding": ['NS2l1-N1-SC2']
     },
     {
-        "id": "NS2b1-SC3",
-        "name": "Stairs (B1)",
+        "id": "NS2b1-N1-SC3",
+        "name": "Stairs (NS1-SC3@B1)",
         "coordinates": [ 2126, 1506 ],
         "connected": ['n1b1o02'],
-        "corresponding": ""
+        "corresponding": ['NS2l1-N1-SC3']
     },
     {
         "id": "n1b1o01",
         "name": "joint outside 1",
         "coordinates": [ 2230, 200 ],
-        "connected": ['NS1b1-1','NS2b1-SC2','n1b1a01'],
+        "connected": ['NS1b1-N1-1','NS2b1-N1-SC2','n1b1a01'],
         "corresponding": ""
     },
     {
         "id": "n1b1o02",
         "name": "joint outside 2",
         "coordinates": [ 2230, 1506 ],
-        "connected": ['NS2b1-SC3','n1b1a01'],
+        "connected": ['NS2b1-N1-SC3','n1b1a01'],
         "corresponding": ""
     },
     {
         "id": "n1b1a01",
         "name": "Main Door",
         "coordinates": [ 2230, 966 ],
-        "connected": ['n1b1o01','n1b1o02'],
+        "connected": ['n1b1o01','n1b1o02','n1b1a04'],
         "corresponding": ""
     },
     {
@@ -10763,7 +10805,7 @@ var graphN1b1 = [
         "id": "n1b1ab02",
         "name": "entry Female N1-B1a-T2",
         "coordinates": [ 6914, 713 ],
-        "connected": ['N1-B1a-T1','n1b1ab01','n1b1ab03'],
+        "connected": ['N1-B1a-T2','n1b1ab01','n1b1ab03'],
         "corresponding": ""
     },
     {
@@ -10784,14 +10826,14 @@ var graphN1b1 = [
         "id": "n1b1ab05",
         "name": "joint N1-B1ab lobby bottom",
         "coordinates": [ 6914, 1546 ],
-        "connected": ['n1b1a09','n1b1ab04','n1b1bc'],
+        "connected": ['n1b1a09','n1b1ab04','n1b1bc05'],
         "corresponding": ""
     },
     {
         "id": "n1b1ab06",
         "name": "entry n1b1-SC1/The Gallery Laboratory",
         "coordinates": [ 6801, 893 ],
-        "connected": ['n1b1-SC1','N1-B1a-03','n1b1ab03'],
+        "connected": ['n1b1-SC1','N1-B1a-03a','n1b1ab03'],
         "corresponding": ""
     },
     {
@@ -10802,14 +10844,14 @@ var graphN1b1 = [
         "corresponding": ""
     },
     {
-        "id": "n1b1-1n2",
+        "id": "N1b1-1n2",
         "name": "Lift (N1-1&2@B1)",
         "coordinates": [ 7134, 1166 ],
         "connected": ['n1b1ab04'],
         "corresponding": ['N1l1-1n2', 'N1b2-1n2', 'N1b3-1n2', 'N1b4-1n2', 'N1b5-1n2']
     },
     {
-        "id": "n1b1-SC1",
+        "id": "N1b1-SC1",
         "name": "Stairs (N1-SC1@B1)",
         "coordinates": [ 6801, 1133 ],
         "connected": ['n1b1ab06'],
@@ -11277,7 +11319,7 @@ var graphN1b2 = [
         "id": "n1b2ab02",
         "name": "entry Female N1-B2a-T2",
         "coordinates": [ 6978, 1205 ],
-        "connected": ['N1-B2a-T1','n1b2ab01','n1b2ab03'],
+        "connected": ['N1-B2a-T2','n1b2ab01','n1b2ab03'],
         "corresponding": ""
     },
     {
@@ -11679,7 +11721,7 @@ var graphN1b3 = [
         "id": "n1b3ab06",
         "name": "entry N1b3-SC1",
         "coordinates": [ 6685, 1245 ],
-        "connected": ['N1b3-SC1','N1-B3a-01','n1b3ab03'],
+        "connected": ['N1b3-SC1','n1b3ab03'],
         "corresponding": ""
     },
     {
@@ -11913,7 +11955,7 @@ var graphN1b4 = [
         "id": "n1b4a02",
         "name": "entry N1b4-SS2/EnRI Corridor",
         "coordinates": [ 2667, 2061 ],
-        "connected": ['N1b4-SS2','n1b4a03','n1b4a12'],
+        "connected": ['N1b4-SS2','n1b4a03','n1b4a12','n1b4a04'],
         "corresponding": ""
     },
     {
@@ -11941,70 +11983,70 @@ var graphN1b4 = [
         "id": "n1b4a06",
         "name": "entry Detection Analysis Lab",
         "coordinates": [ 3058, 1382 ],
-        "connected": ['N1-B4a-07','n1b3a05','n1b3a07'],
+        "connected": ['N1-B4a-07','n1b4a05','n1b4a07'],
         "corresponding": ""
     },
     {
         "id": "n1b4a07",
         "name": "entry Formulations Lab",
         "coordinates": [ 3239, 1382 ],
-        "connected": ['N1-B4a-06','n1b3a06','n1b3a08'],
+        "connected": ['N1-B4a-06','n1b4a06','n1b4a08'],
         "corresponding": ""
     },
     {
         "id": "n1b4a08",
         "name": "entry Organic Synthesis Lab",
         "coordinates": [ 3551, 1382 ],
-        "connected": ['N1-B4a-05','n1b3a07','n1b3a09'],
+        "connected": ['N1-B4a-05','n1b4a07','n1b4a09'],
         "corresponding": ""
     },
     {
         "id": "n1b4a09",
         "name": "entry Metal Particles Lab/Binder & Plasticiser",
         "coordinates": [ 4185, 1382 ],
-        "connected": ['N1-B4a-18','N1-B4a-04','n1b3a08','n1b3a10'],
+        "connected": ['N1-B4a-18','N1-B4a-04','n1b4a08','n1b4a10'],
         "corresponding": ""
     },
     {
         "id": "n1b4a10",
         "name": "entry Instrumental Analysis Lab",
         "coordinates": [ 4376, 1382 ],
-        "connected": ['N1-B4a-19','n1b3a09','n1b3a11'],
+        "connected": ['N1-B4a-19','n1b4a09','n1b4a11'],
         "corresponding": ""
     },
     {
         "id": "n1b4a11",
         "name": "entry EnRI/Metal Characterisation Lab",
         "coordinates": [ 4579, 1382 ],
-        "connected": ['N1-B4a-02','N1-B4a-03','n1b3a10'],
+        "connected": ['N1-B4a-02','N1-B4a-03','n1b4a10'],
         "corresponding": ""
     },
     {
         "id": "n1b4a12",
         "name": "entry O-N Room",
         "coordinates": [ 2866, 2061 ],
-        "connected": ['N1-B4a-13','n1b3a02','n1b3a13'],
+        "connected": ['N1-B4a-13','n1b4a02','n1b4a13'],
         "corresponding": ""
     },
     {
         "id": "n1b4a13",
         "name": "entry SW",
         "coordinates": [ 3023, 2061 ],
-        "connected": ['N1-B4a-14','n1b3a12','n1b3a14'],
+        "connected": ['N1-B4a-14','n1b4a12','n1b4a14'],
         "corresponding": ""
     },
     {
         "id": "n1b4a14",
         "name": "entry Clean Room Class 100",
         "coordinates": [ 3279, 2061 ],
-        "connected": ['N1-B4a-16','n1b3a13','n1b3a15'],
+        "connected": ['N1-B4a-16','n1b4a13','n1b4a15'],
         "corresponding": ""
     },
     {
         "id": "n1b4a15",
         "name": "entry Clean Room Class 10k",
         "coordinates": [ 3734, 2061 ],
-        "connected": ['N1-B4a-17','n1b3a14','n1b4ab05'],
+        "connected": ['N1-B4a-17','n1b4a14','n1b4ab05'],
         "corresponding": ""
     },
     {
@@ -12178,7 +12220,7 @@ var graphN1b4 = [
     {
         "id": "N1b4-SC1",
         "name": "Stairs (N1-SC1@B4)",
-        "coordinates": [ 6590, 1520 ],
+        "coordinates": [ 6437, 1520 ],
         "connected": ['n1b4ab06'],
         "corresponding": ""
     },
@@ -12383,7 +12425,7 @@ var graphN1b4 = [
         "name": "Stairs (B4)",
         "coordinates": [ 15172, 67 ],
         "connected": ['n1b4c03'],
-        "corresponding": ['N1b3-SS3','N1b2-SS3','N1b5-SS3']
+        "corresponding": ['N1b4-SS3','N1b2-SS3','N1b5-SS3']
     },
     {
         "id": "N1b4-SS4",
@@ -12946,7 +12988,7 @@ var graphMSl1 = [
     },
     {
         "id": "N2.1-01-08",
-        "name": "Fast Food Restaurants",
+        "name": "McDonalds, Subway, Starbucks, Long John Silver",
         "coordinates": [ 6975, 5544 ],
         "connected": ['msl1n40','msl1n41','msl1n45','msl1n01','msl1n02'],
         "corresponding": ""
@@ -14351,7 +14393,7 @@ var graphMSl2 = [
         "id": "msl2n79",
         "name": "entry LT5/6",
         "coordinates": [ 9497, 2813 ],
-        "connected": ['msl2n58'],
+        "connected": ['NS3-02-07','NS3-02-05','msl2n58'],
         "corresponding": ""
     },
     {
@@ -14468,7 +14510,7 @@ var graphMSl2 = [
     },
     {
         "id": "NS3-02-09",
-        "name": "LT 1",
+        "name": "Lecture Theatre 1 (LT 1)",
         "coordinates": [ 6370, 3457 ],
         "connected": ['msl2n47','msl2n49'],
         "corresponding": ""
@@ -14538,7 +14580,7 @@ var graphMSl2 = [
     },
     {
         "id": "NS2.1-02-03",
-        "name": "North Spine Foodcourt",
+        "name": "North Spine Foodcourt (NS Foodcourt)",
         "coordinates": [ 5294, 4402 ],
         "connected": ['msl2n01','msl2n46'],
         "corresponding": ""
@@ -15253,7 +15295,7 @@ var graphMSl41 = [
         "id": "msl41n44",
         "name": "entry Male NS4-04-T20/NS4l41-SC13",
         "coordinates": [ 13338, 378 ],
-        "connected": ['NS4-04-T20','NS4l41-SC13','msl41n43','msl41n45'],
+        "connected": ['NS4-04-T20','NS4l41-SC13','msl41n43'],
         "corresponding": ""
     },
     {
@@ -15274,56 +15316,56 @@ var graphMSl41 = [
         "id": "msl41n81",
         "name": "Com Skill Lab 2 inside 1",
         "coordinates": [ 11074, 498 ],
-        "connected": ['msl41n33'],
+        "connected": ['NS4-04-37','msl41n33'],
         "corresponding": ""
     },
     {
         "id": "msl41n82",
         "name": "Com Skill Lab 2 inside 2",
         "coordinates": [ 11355, 498 ],
-        "connected": ['msl41n34'],
+        "connected": ['NS4-04-37','msl41n34'],
         "corresponding": ""
     },
     {
         "id": "msl41n83",
         "name": "Com Skill Lab 3 inside 1",
         "coordinates": [ 11424, 498 ],
-        "connected": ['msl41n35'],
+        "connected": ['NS4-04-38','msl41n35'],
         "corresponding": ""
     },
     {
         "id": "msl41n84",
         "name": "Com Skill Lab 3 inside 2",
         "coordinates": [ 11691, 498 ],
-        "connected": ['msl41n36'],
+        "connected": ['NS4-04-38','msl41n36'],
         "corresponding": ""
     },
     {
         "id": "msl41n85",
         "name": "entry LT9 inside 1",
         "coordinates": [ 11814, 498 ],
-        "connected": ['msl41n37'],
+        "connected": ['NS4-04-39','msl41n37'],
         "corresponding": ""
     },
     {
         "id": "msl41n86",
         "name": "entry LT9 inside 2",
         "coordinates": [ 12014, 498 ],
-        "connected": ['msl41n38'],
+        "connected": ['NS4-04-39','msl41n38'],
         "corresponding": ""
     },
     {
         "id": "msl41n87",
         "name": "entry LT10 inside 1",
         "coordinates": [ 12308, 498 ],
-        "connected": ['msl41n39'],
+        "connected": ['NS4-04-41','msl41n39'],
         "corresponding": ""
     },
     {
         "id": "msl41n88",
         "name": "entry LT10 inside 2",
         "coordinates": [ 12804, 498 ],
-        "connected": ['msl41n40'],
+        "connected": ['NS4-04-41','msl41n40'],
         "corresponding": ""
     },
     {
@@ -15379,7 +15421,7 @@ var graphMSl41 = [
         "id": "NS4l41-SC13",
         "name": "Stairs (NS4-SC13@L3)",
         "coordinates": [ 13338, 233 ],
-        "connected": ['msl41n43'],
+        "connected": ['msl41n44'],
         "corresponding": ['NS4l1-SC13', 'NS4l2-SC13', 'NS4l51-SC13']
     },
     {
@@ -15557,7 +15599,7 @@ var graphMSl42 = [
         "id": "msl42n45",
         "name": "entry Male NS3-04-T8/NS2l42-SC4",
         "coordinates": [ 8072, 2246 ],
-        "connected": [5913,2246],
+        "connected": ['msl42n46','NS2-04-T8','NS3l42-SC4'],
         "corresponding": ""
     },
     {
@@ -15669,63 +15711,63 @@ var graphMSl42 = [
         "id": "msl42n61",
         "name": "entry Male NS3-04-T5/NS1l42-SC3",
         "coordinates": [ 11315, 2260 ],
-        "connected": ['NS3-04-T5','NS1l42-SC3','msl42n60','msl42n62'],
+        "connected": ['NS3-04-T5','NS1l42-SC3','msl42n60'],
         "corresponding": ""
     },
     {
         "id": "msl42n89",
         "name": "entry LT11 inside 1",
         "coordinates": [ 8768, 2132 ],
-        "connected": ['msl42n50'],
+        "connected": ['NS2-04-15','msl42n50'],
         "corresponding": ""
     },
     {
         "id": "msl42n90",
         "name": "entry LT11 inside 2",
         "coordinates": [ 9099, 2132 ],
-        "connected": ['msl42n51'],
+        "connected": ['NS2-04-15','msl42n51'],
         "corresponding": ""
     },
     {
         "id": "msl42n91",
         "name": "entry LT12 inside 1",
         "coordinates": [ 9275, 2132 ],
-        "connected": ['msl42n52'],
+        "connected": ['NS2-04-13','msl42n52'],
         "corresponding": ""
     },
     {
         "id": "msl42n92",
         "name": "entry LT12 inside 2",
         "coordinates": [ 9599, 2132 ],
-        "connected": ['msl42n53'],
+        "connected": ['NS2-04-13','msl42n53'],
         "corresponding": ""
     },
     {
         "id": "msl42n93",
         "name": "entry LT13 inside 1",
         "coordinates": [ 9778, 2132 ],
-        "connected": ['msl42n54'],
+        "connected": ['NS2-04-11','msl42n54'],
         "corresponding": ""
     },
     {
         "id": "msl42n94",
         "name": "entry LT13 inside 2",
         "coordinates": [ 10112, 2132 ],
-        "connected": ['msl42n55'],
+        "connected": ['NS2-04-11','msl42n55'],
         "corresponding": ""
     },
     {
         "id": "msl42n95",
         "name": "entry LT14 inside 1",
         "coordinates": [ 10286, 2132 ],
-        "connected": ['msl42n56'],
+        "connected": ['NS2-04-9','msl42n56'],
         "corresponding": ""
     },
     {
         "id": "msl42n96",
         "name": "entry LT14 inside 2",
         "coordinates": [ 10622, 2132 ],
-        "connected": ['msl42n57'],
+        "connected": ['NS2-04-9','msl42n57'],
         "corresponding": ""
     },
     {
@@ -15812,7 +15854,7 @@ var graphMSl43 = [
         "id": "msl43n62",
         "name": "entry Male NS3-04-T4/NS1l43-SC2",
         "coordinates": [ 12116, 2249 ],
-        "connected": ['6NS3-04-T4','NS1l43-SC21','msl43n61','msl43n63'],
+        "connected": ['NS3-04-T4','NS1l43-SC2','msl43n63'],
         "corresponding": ""
     },
     {
@@ -15931,56 +15973,56 @@ var graphMSl43 = [
         "id": "msl43n97",
         "name": "entry LT15 inside 1",
         "coordinates": [ 12816, 2132 ],
-        "connected": ['msl43n67'],
+        "connected": ['NS2-04-7','msl43n67'],
         "corresponding": ""
     },
     {
         "id": "msl43n98",
         "name": "entry LT15 inside 2",
         "coordinates": [ 13141, 2132 ],
-        "connected": ['msl43n68'],
+        "connected": ['NS2-04-7','msl43n68'],
         "corresponding": ""
     },
     {
         "id": "msl43n99",
         "name": "entry LT16 inside 1",
         "coordinates": [ 13321, 2132 ],
-        "connected": ['msl43n69'],
+        "connected": ['NS2-04-5','msl43n69'],
         "corresponding": ""
     },
     {
         "id": "msl43n100",
         "name": "entry LT16 inside 2",
         "coordinates": [ 13648, 2132 ],
-        "connected": ['msl43n70'],
+        "connected": ['NS2-04-5','msl43n70'],
         "corresponding": ""
     },
     {
         "id": "msl43n101",
         "name": "entry LT17 inside 1",
         "coordinates": [ 13823, 2132 ],
-        "connected": ['msl43n71'],
+        "connected": ['NS2-04-3','msl43n71'],
         "corresponding": ""
     },
     {
         "id": "msl43n102",
         "name": "entry LT17 inside 2",
         "coordinates": [ 14159, 2132 ],
-        "connected": ['msl43n72'],
+        "connected": ['NS2-04-3','msl43n72'],
         "corresponding": ""
     },
     {
         "id": "msl43n103",
         "name": "entry LT18 inside 1",
         "coordinates": [ 14333, 2132 ],
-        "connected": ['msl43n73'],
+        "connected": ['NS2-04-1','msl43n73'],
         "corresponding": ""
     },
     {
         "id": "msl43n104",
         "name": "entry LT18 inside 2",
         "coordinates": [ 14655, 2132 ],
-        "connected": ['msl43n74'],
+        "connected": ['NS2-04-1','msl43n74'],
         "corresponding": ""
     },
     {
@@ -15993,7 +16035,7 @@ var graphMSl43 = [
     {
         "id": "NS1l43-SC2",
         "name": "Stairs (NS1-SC2@L4)",
-        "coordinates": [ 11315, 2397 ],
+        "coordinates": [ 12116, 2397 ],
         "connected": ['msl43n62'],
         "corresponding": ['NS1l1-SC2', 'NS1l2-SC2', 'NS1l52-SC2']
     },

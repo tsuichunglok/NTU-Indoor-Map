@@ -28,8 +28,23 @@ function directions(){
         sidebar.close('menu');
 
     } else if (fromLevelGraph[1] === toLevelGraph[1]) { //3b. SAME BUILDING, DIFFERENT LEVELS: go to lift/stairs
-        //3bi. Ask user if he wishes to take the stairs or the lift
-        sameBuildDiffLvl(portalChoice, fromLevelGraph, toLevelGraph, directionsSets,"now");
+
+        //Special case for transitioning between MS L4 and L5
+        let l4 = new RegExp("l4", "i");
+        let l5 = new RegExp("l5", "i");
+        let type ="now";
+
+        if ((l4.test(fromLevelGraph[2]) || l5.test(fromLevelGraph[2])) && (l4.test(toLevelGraph[2]) || l5.test(toLevelGraph[2]))){
+            //go to nearest stairs/lift
+            let toPortal = findNearestPortal(toLevelGraph[3], portalChoice, toLevelGraph[0], "l2");
+            let newToPlace = findCorrespondingPortal(toPortal,"l2");
+
+            sameBuildDiffLvl(portalChoice, fromLevelGraph,["graphMSl2","ms","l2",newToPlace],directionsSets,type);
+            fromLevelGraph = ["graphMSl2","ms","l2",newToPlace];
+            type = "msl4l5";
+        }
+
+        sameBuildDiffLvl(portalChoice, fromLevelGraph, toLevelGraph, directionsSets,type);
         createNavControls(directionsSets);
 
     } else { //3c. DIFFERENT BUILDING
@@ -46,7 +61,7 @@ function directions(){
                     sameBuildDiffLvl(portalChoice,["graph"+toLevelGraph[1].toUpperCase()+fromLevelGraph[2],toLevelGraph[1],fromLevelGraph[2], findMainDoor("norm", ["graph"+toLevelGraph[1].toUpperCase()+fromLevelGraph[2]])],toLevelGraph,directionsSets);
                 } else { //No: SBDL(MS to l1)-->SBDL
                     sameBuildDiffLvl(portalChoice,fromLevelGraph,["graphMSl1","ms","l1",findMainDoor("main", ["",toLevelGraph[1],"l1"])],directionsSets);
-                    sameBuildDiffLvl(portalChoice,["graph"+toLevelGraph[1].toUpperCase()+"l1",toLevelGraph[1],"l1", findMainDoor("norm", "graph"+toLevelGraph[1].toUpperCase()+"l1")],toLevelGraph,directionsSets);
+                    sameBuildDiffLvl(portalChoice,["graph"+toLevelGraph[1].toUpperCase()+"l1",toLevelGraph[1],"l1", findMainDoor("norm", ["graph"+toLevelGraph[1].toUpperCase()+"l1"])],toLevelGraph,directionsSets);
                 }
             }
         } else if (toLevelGraph[1] === "ms") { //Check if destination is MS. Yes: NM-->M
@@ -125,11 +140,15 @@ function directions(){
             toLvlGraph = ["graphMSl2","ms","l2","STl2-LWN"];
         }
 
-        //1st set - fromRm: original, toRM: escalator/stairs (toPortal)
         let toPortal = findNearestPortal(frLvlGraph[3], portalChoice, frLvlGraph[0], toLvlGraph[2]); //Returns: [0]portal id and [1]corresponding ids
-        directionsSet.push([frLvlGraph, frLvlGraph[3], toPortal[0]]);
 
-        if (type ==="now"){ //are we pushing it to directions sets or plotting the route out NOW
+        //1st set - fromRm: original, toRM: escalator/stairs (toPortal)
+        if (type !== "msl4l5") {
+            directionsSet.push([frLvlGraph, frLvlGraph[3], toPortal[0]]);
+        }
+
+        //Are we pushing it to directions sets or plotting the route out NOW
+        if (type ==="now"){
             shortestPathCombined(frLvlGraph, frLvlGraph[3], toPortal[0]);
         }
 
@@ -157,12 +176,19 @@ function directions(){
             if (portalRgx.test(lvlGraph[i].name)){
                 for (let k = 0; k < lvlGraph[i].corresponding.length; k++){
                     if (levelRgx.test(lvlGraph[i].corresponding[k])){
-                        //calculate shortest path to the individual portals
-                        let shortestPath = findShortestPath(graphReturned[0],room,lvlGraph[i].id,graphReturned[1]);
-                        let sum=0;
-                        for (let i=shortestPath.length; i--;) {sum+=shortestPath[i].data;}
-                        paths.push([sum,lvlGraph[i].id,lvlGraph[i].corresponding]);
-                        break;
+                        try {
+                            //calculate shortest path to the individual portals
+                            let shortestPath = findShortestPath(graphReturned[0],room,lvlGraph[i].id,graphReturned[1]);
+                            let sum=0;
+                            for (let i=shortestPath.length; i--;) {sum+=shortestPath[i].data;}
+                            paths.push([sum,lvlGraph[i].id,lvlGraph[i].corresponding]);
+                            break;
+                        }
+                        catch(err) {
+                            let emailYN = confirm("Sorry, route cannot be found :-( Would you like to send the bug to the developer?");
+                            if (emailYN) {window.open('mailto:tsui0005@e.ntu.edu.sg?body=Path undefined: '+room+ ', ' +levelGraph+ ', ' +toLevel);}
+                        }
+
                     }
                 }
             }
@@ -296,13 +322,13 @@ function plotShortestPath(shortestPath) {
     });
 
     //Calculate estimated distance and time
-    let dist = Math.ceil(shortestPath[shortestPath.length-1].to._dijkstra.fCost*0.005);
-    let time = Math.ceil(dist/1.4/60);
+    // let dist = Math.ceil(shortestPath[shortestPath.length-1].to._dijkstra.fCost*0.005);
+    // let time = Math.ceil(dist/1.4/60);
 
     //$('#detailsControl-container').html('<div id="detailsControl"><b>' + dist + 'm, ~' + time +'s</b></div>');
 
     var polyL = L.polyline(newPath, {color: 'red'})
-        .bindTooltip('<div id="detailsControl"><b>Estimated Time & Distance:</b> ' + dist + 'm, ' + time +'min</div>', {sticky:true})
+        // .bindTooltip('<div id="detailsControl"><b>Estimated Time & Distance:</b> ' + dist + 'm, ' + time +'min</div>', {sticky:true})
         .addTo(navPolylineLayerGroup);
 
     L.polylineDecorator(polyL, {

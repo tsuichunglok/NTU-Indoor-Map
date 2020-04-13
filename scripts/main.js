@@ -125,10 +125,10 @@ var mapImageInfo = {
         "b3": [15716,2192,0,3,1],
         "b2": [15749,2191,0,3,1],
         "b1": [15687,1859,0,3,1],
-        "l1" : [15116,1365,0,3,1]
+        "l1" : [15518,1365,0,3,1]
     },
     "n3": {
-        "b4": [17991,4245,0,3,0],
+        "b4": [17791,4245,0,3,0],
         "b3": [15842,3493,0,3,1],
         "b2": [15754,3113,0,3,1],
         "b1": [15842,2835,0,3,1],
@@ -479,8 +479,7 @@ function generateLiftLayer(){
 //--------------------- SIDEBAR ---------------
 // create the sidebar instance and add it to the map
 var sidebar = L.control.sidebar({container: 'sidebar', autopan: true})
-    .addTo(map)
-    .open('menu');
+    .addTo(map);
 
 //sidebar.options.autopan = true;
 

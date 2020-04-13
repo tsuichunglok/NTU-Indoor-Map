@@ -33,18 +33,35 @@ function swapPressed() {
 // When search is pressed, check if it's a simple search or looking for directions
 function searchPressed(){
 
-    let fromTerm = $('#fromTerm');
-    if (fromTerm.val() != null && fromTerm.val() !== '') {
+    let fromTerm = $('#fromTerm').val();
+    let toTerm = $('#toTerm').val();
+    if ((fromTerm != null && fromTerm !== '')||(toTerm != null && toTerm !== '')){
         // Remove any markers
         searchMarkerLayerGroup.clearLayers();
-        navPolylineLayerGroup.clearLayers(); //TODO: does it really work?
+        navPolylineLayerGroup.clearLayers();
         $("#dirControl").remove();
         $("#detailsControl").remove();
 
-        // Check if it's a directions or a search
-        if ($('#toTerm').val().length > 0) {directions()}
-        else {search()}
+        if (fromTerm != null && fromTerm !== '' && toTerm != null && toTerm !== ''){
+            directions()
+        } else if (toTerm === null || toTerm === ''){
+            search(fromTerm)
+        } else {
+            search(toTerm)
+        }
     }
+
+    // if (fromTerm.val() != null && fromTerm.val() !== '') {
+    //     // Remove any markers
+    //     searchMarkerLayerGroup.clearLayers();
+    //     navPolylineLayerGroup.clearLayers();
+    //     $("#dirControl").remove();
+    //     $("#detailsControl").remove();
+    //
+    //     // Check if it's a directions or a search
+    //     if ($('#toTerm').val().length > 0) {}
+    //     else {search()}
+    // }
 
 }
 
@@ -56,10 +73,10 @@ function removeAt(roomName) { //Returns ID if autocomplete suggestion is selecte
 }
 
 // Search Function
-function search(){
+function search(roomName){
     // Get the room name from the search bar (first entry)
     // Caps should not matter. search for name/ID
-    let roomNameOriginal = removeAt($('#fromTerm').val());
+    let roomNameOriginal = removeAt(roomName);
     let roomNameRegex = new RegExp("\\b" + roomNameOriginal + "\\b", "gi");
 
     // Loop through the GEOJson file to match the room name
@@ -71,8 +88,9 @@ function search(){
             let roomCoord = rooms[i].geometry.coordinates;
             let lat = (roomCoord[0][0][0] + roomCoord[0][2][0])/2;
             let lng = (roomCoord[0][0][1] + roomCoord[0][1][1])/2;
+            map.setView(map.unproject(L.point(lat, lng)),0);
+            console.log(map.unproject(L.point(lat, lng)));
             L.marker(map.unproject(L.point(lat, lng),map.getMaxZoom())).addTo(searchMarkerLayerGroup);
-            map.setView(map.unproject(L.point(lat, lng)), 0);
             sidebar.close('menu');
             return;
         }

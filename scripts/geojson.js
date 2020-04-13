@@ -663,7 +663,7 @@ var rooms = [
             "building": "ms",
             "level": "l2",
             "id": "NS2.1-02-03",
-            "name": "North Spine Foodcourt",
+            "name": "North Spine Foodcourt (NS Foodcourt)",
             "roomType": "nonacademic",
             "popupContent": ""
         },
@@ -12840,6 +12840,30 @@ var stairs = [
         "properties": {
             "building": "n1",
             "level": "l1",
+            "tooltipContent": "<b>NS1-SC2</b>: B1 thru L6, Roof Access"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [2041,147]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "l1",
+            "tooltipContent": "<b>NS1-SC3</b>: B1 thru L5"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1814,1433]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "l1",
             "tooltipContent": "<b>N1-SC1</b>: B5 thru L2, Roof Access"
         },
         "geometry": {
@@ -12869,6 +12893,30 @@ var stairs = [
         "geometry": {
             "type": "Point",
             "coordinates": [ 15435, 1294 ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "b1",
+            "tooltipContent": "<b>NS1-SC2</b>: B1 thru L6, Roof Access"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 2343, 200 ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "b1",
+            "tooltipContent": "<b>NS1-SC3</b>: B1 thru L5"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 2126, 1506 ]
         }
     },
     {
@@ -13224,6 +13272,30 @@ var stairs = [
         "properties": {
             "building": "n2",
             "level": "l1",
+            "tooltipContent": "<b>N2-MS1</b>: B1 & L1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 15169, 280 ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n2",
+            "level": "l1",
+            "tooltipContent": "<b>N2-MS2</b>: B1 & L1"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 15169, 1092 ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n2",
+            "level": "l1",
             "tooltipContent": "<b>N2-SC3</b>: B5 thru 2, Roof Access"
         },
         "geometry": {
@@ -13296,7 +13368,7 @@ var stairs = [
         "properties": {
             "building": "n2",
             "level": "b1",
-            "tooltipContent": "<b>N2-MS1</b>: B1 & L1"
+            "tooltipContent": "<b>N2-MS2</b>: B1 & L1"
         },
         "geometry": {
             "type": "Point",
@@ -13308,7 +13380,7 @@ var stairs = [
         "properties": {
             "building": "n2",
             "level": "b1",
-            "tooltipContent": "<b>N2-MS2</b>: B1 & L1"
+            "tooltipContent": "<b>N2-MS1</b>: B1 & L1"
         },
         "geometry": {
             "type": "Point",
@@ -14559,6 +14631,18 @@ var lifts = [
         "properties": {
             "building": "n1",
             "level": "l1",
+            "tooltipContent": "<b>NS1-1</b>: Serves L1, L2, L4, L5"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [1814,147]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "l1",
             "tooltipContent": "<b>N1-1</b>: Serves B5 to L1"
         },
         "geometry": {
@@ -14588,6 +14672,18 @@ var lifts = [
         "geometry": {
             "type": "Point",
             "coordinates": [ 10670, 1141 ]
+        }
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "building": "n1",
+            "level": "b1",
+            "tooltipContent": "<b>NS1-1</b>: Serves L1, L2, L4, L5"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [ 2116, 200 ]
         }
     },
     {
