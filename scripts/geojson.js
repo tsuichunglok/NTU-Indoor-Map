@@ -125,7 +125,8 @@ var rooms = [
             "id": "NS3-01-01",
             "name": "LadyFirst",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10.30am - 5.30pm<br>Sat, Sun & PH: Closed​​​<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/LadyFirst_(280x180)(UT).jpg'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/LadyFirst_(280x180)(UT).jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10.30am - 5.30pm<br>Sat, Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -140,7 +141,8 @@ var rooms = [
             "id": "NS3-01-10",
             "name": "Frank by OCBC",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am - 4.30pm<br>Sat, Sun & PH: Closed​​​<br><br><img src='https://www.ntu.edu.sg/has/Serv/PublishingImages/Pages/Banking/OCBC(UT_280x180).jpg'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/Serv/PublishingImages/Pages/Banking/OCBC(UT_280x180).jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am - 4.30pm<br>Sat, Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -155,7 +157,8 @@ var rooms = [
             "id": "NS3-01-09",
             "name": "K Cuts",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Sat: 10am - 8pm<br>Sun & PH: Closed​​​​​​<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/K-Cuts.png'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/K-Cuts.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Sat: 10am - 8pm<br>Sun & PH: Closed​​​​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -170,7 +173,8 @@ var rooms = [
             "id": "NS3-01-08",
             "name": "U-Shop",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 9pm<br>Sat: 10am - 6pm<br>Sun & PH: Closed​​<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/U-Shop.png'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/U-Shop.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 9pm<br>Sat: 10am - 6pm<br>Sun & PH: Closed​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -185,7 +189,8 @@ var rooms = [
             "id": "NS3-01-07",
             "name": "Hola Mobile",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 8pm<br>Sat: 10am - 3pm<br>Sun & PH: Closed​​​​​​<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/HollaBellaBeautyParlour%28280x180%29.jpg'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/HollaBellaBeautyParlour%28280x180%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 8pm<br>Sat: 10am - 3pm<br>Sun & PH: Closed​​​​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -200,7 +205,8 @@ var rooms = [
             "id": "NS3-01-12",
             "name": "New China Optics",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10.30am - 7.30pm (5pm for Semester Break)<br>Sat: 10.30am - 3pm<br>Sun & PH: Closed​<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/NewChinaOptics(280x180)(UT).png'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/NewChinaOptics(280x180)(UT).png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10.30am - 7.30pm (5pm for Semester Break)<br>Sat: 10.30am - 3pm<br>Sun & PH: Closed​"
         },
         "geometry": {
             "type": "Polygon",
@@ -215,7 +221,8 @@ var rooms = [
             "id": "NS3-01-13",
             "name": "STA Travel",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 7pm<br>Sat: 10am to 7pm<br>Sun & PH: Closed​​​<br><br><img src='http://www.ntu.edu.sg/has/RnS/PublishingImages/STA%20Travel.png'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/RnS/PublishingImages/STA%20Travel.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am - 7pm<br>Sat: 10am to 7pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -230,7 +237,8 @@ var rooms = [
             "id": "NS3-01-14",
             "name": "The Soup Spoon Union",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 11am to 9pm<br>Sat: 11am to 3pm<br>Sun & PH: Closed​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/The%20Soup%20Spoon%20Union.png'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/The%20Soup%20Spoon%20Union.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 11am to 9pm<br>Sat: 11am to 3pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -245,7 +253,8 @@ var rooms = [
             "id": "NS3-01-15",
             "name": "Paik's Bimbim",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 9pm<br>Sat: 10am to 3pm<br>Sun & PH: Closed​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/PaiksBibim_280x180.png'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/PaiksBibim_280x180.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 9pm<br>Sat: 10am to 3pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -257,10 +266,11 @@ var rooms = [
         "properties": {
             "building": "ms",
             "level": "l1",
-            "id": "NS3-01-16",
+            "id": "NS3-01-16A",
             "name": "The Crowded Bowl",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 8am to 8.30pm<br>Sat: 8am ​to 2​pm<br>Sun & PH: Closed​​​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/TheCrowdedBowl%28280x180%29%28UT%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/TheCrowdedBowl%28280x180%29%28UT%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 8am to 8.30pm<br>Sat: 8am ​to 2​pm<br>Sun & PH: Closed​​​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -275,7 +285,8 @@ var rooms = [
             "id": "NS3-01-19",
             "name": "Umisushi",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat : 9am to 3​pm<br>Sun & PH: Closed​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/umisushi%28280x180%29%28UT%29.png'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/umisushi%28280x180%29%28UT%29.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat : 9am to 3​pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -290,7 +301,8 @@ var rooms = [
             "id": "NS3-01-20",
             "name": "Bakery Cuisine",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7am to 9pm<br>Sat, Sun & PH: 9am to 7pm​​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/BakeryCuisine%28UT_280x180%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/BakeryCuisine%28UT_280x180%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7am to 9pm<br>Sat, Sun & PH: 9am to 7pm​​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -305,7 +317,8 @@ var rooms = [
             "id": "NS3-01-21",
             "name": "Each-A-Cup",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat & Sun: 9am to 6​pm​<br>PH: Closed<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/Each-A-Cup%28UT_280x180%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/Each-A-Cup%28UT_280x180%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat & Sun: 9am to 6​pm​<br>PH: Closed"
         },
         "geometry": {
             "type": "Polygon",
@@ -320,7 +333,8 @@ var rooms = [
             "id": "NS3-01-22",
             "name": "The Sandwich Guys",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 8pm<br>Sat : 10am to 3​pm<br>Sun & PH: Closed​​​<br><br><img src='https://www.ntu.edu.sg/has/FnB/PublishingImages/The%20Sandwich%20Guys.png'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/FnB/PublishingImages/The%20Sandwich%20Guys.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 8pm<br>Sat : 10am to 3​pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -335,7 +349,8 @@ var rooms = [
             "id": "NS3-01-23",
             "name": "Grande Cibo",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Sun: 11am to 8pm<br>PH: Closed​​​​​​<br><br><img src='https://www.ntu.edu.sg/has/FnB/PublishingImages/GrandeCibo_%28280x180%29%28V2%29%28UT%29.jpg'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/FnB/PublishingImages/GrandeCibo_%28280x180%29%28V2%29%28UT%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Sun: 11am to 8pm<br>PH: Closed​​​​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -350,7 +365,8 @@ var rooms = [
             "id": "NS3-01-11",
             "name": "Boost Juice",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 9pm<br>Sat, Sun & PH: 10am to 6pm<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/BoostJuice_280x180%28UT%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/BoostJuice_280x180%28UT%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 10am to 9pm<br>Sat, Sun & PH: 10am to 6pm"
         },
         "geometry": {
             "type": "Polygon",
@@ -365,7 +381,8 @@ var rooms = [
             "id": "NS3-01-04",
             "name": "Fun World Café",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7am to 8pm<br>Sat: 9am to 3​pm<br>Sun & PH: Closed<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/FunWorld_%28280x180%29%28UT%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/FunWorld_%28280x180%29%28UT%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7am to 8pm<br>Sat: 9am to 3​pm<br>Sun & PH: Closed"
         },
         "geometry": {
             "type": "Polygon",
@@ -380,7 +397,8 @@ var rooms = [
             "id": "NS3-01-16",
             "name": "Mr Bean",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7.30am to 8.30pm<br>Sat: 7.30am to 5pm<br>Sun & PH: Closed​​​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/MrBean_%28280x180%29%28UT%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/MrBean_%28280x180%29%28UT%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 7.30am to 8.30pm<br>Sat: 7.30am to 5pm<br>Sun & PH: Closed​​​"
         },
         "geometry": {
             "type": "Polygon",
@@ -395,7 +413,8 @@ var rooms = [
             "id": "NS3-01-24",
             "name": "The House Steamboat Restaurant",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat: 9am ​to 6​pm<br>Sun: Closed<br>PH: 10am - 4pm​<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/TheHouseSteamBoatRestaurant_%28UT_280x180%29.jpg'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/TheHouseSteamBoatRestaurant_%28UT_280x180%29.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat: 9am ​to 6​pm<br>Sun: Closed<br>PH: 10am - 4pm​<br><br>"
         },
         "geometry": {
             "type": "Polygon",
@@ -410,7 +429,8 @@ var rooms = [
             "id": "NS3-01-25",
             "name": "Booklink",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat: 9am ​to 6​pm<br>Sun: Closed<br>PH: 10am - 4pm​​​​<br><br><img src='https://maps.ntu.edu.sg/static/photos/62_t.jpg'/>"
+            "imgSrc": "https://maps.ntu.edu.sg/static/photos/62_t.jpg",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Mon to Fri: 9am to 9pm<br>Sat: 9am ​to 6​pm<br>Sun: Closed<br>PH: 10am - 4pm​​​​<br><br>"
         },
         "geometry": {
             "type": "Polygon",
@@ -425,7 +445,8 @@ var rooms = [
             "id": "NS3-01-26",
             "name": "Prime Supermarket",
             "roomType": "nonacademic",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Daily: 8​am to 9pm<br><br><img src='https://www.ntu.edu.sg/has/RnS/PublishingImages/Prime%20Supermarket.png'/>"
+            "imgSrc": "https://www.ntu.edu.sg/has/RnS/PublishingImages/Prime%20Supermarket.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Daily: 8​am to 9pm"
         },
         "geometry": {
             "type": "Polygon",
@@ -498,9 +519,10 @@ var rooms = [
             "building": "ms",
             "level": "l1",
             "id": "N2.1-01-08",
-            "name": "Fast Food Restaurants",
+            "name": "McDonalds, Subway, Starbucks, KFC, Long John Silver, Pizza Hut",
             "roomType": "eatery",
-            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Daily: 8​am to 9pm<br><br><img src='http://www.ntu.edu.sg/has/FnB/PublishingImages/McDonalds_280x180.png'/>"
+            "imgSrc": "http://www.ntu.edu.sg/has/FnB/PublishingImages/McDonalds_280x180.png",
+            "popupContent": "<b>Address</b><br>50 Nanyang Avenue<br>Singapore 639798<br><br><b>Opening Hours</b><br>Daily: 8​am to 9pm"
         },
         "geometry": {
             "type": "Polygon",

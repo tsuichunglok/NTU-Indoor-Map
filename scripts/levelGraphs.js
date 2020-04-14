@@ -1396,7 +1396,7 @@ var graphN4l2 = [
         "id": "n4l2c16",
         "name": "entry Staff Room",
         "coordinates": [ 14271, 629 ],
-        "connected": ['N4-02c-117b','n4l2c15','n4l2c17'],
+        "connected": ['n4l2c15','n4l2c17'],
         "corresponding": ""
     },
     {
@@ -1788,7 +1788,7 @@ var graphN4l2 = [
         "id": "N4-02c-117b",
         "name": "Staff Room",
         "coordinates": [ 14273, 868 ],
-        "connected": ['n4l2c16','n4l2c36'],
+        "connected": ['n4l2c36'],
         "corresponding": ""
     },
     {
@@ -6367,7 +6367,7 @@ var graphN2l1 = [
         "id": "n2l1a01",
         "name": "Main Door",
         "coordinates": [ 15364, 685 ],
-        "connected": ['n2l1a02','n2l1a27'],
+        "connected": ['n2l1a02','n2l1a25'],
         "corresponding": ""
     },
     {
@@ -6379,9 +6379,9 @@ var graphN2l1 = [
     },
     {
         "id": "n2l1a03",
-        "name": "entry Students and Visitors Office 1/EOS Meeting Room 1",
+        "name": "entry EOS Meeting Room 1",
         "coordinates": [ 14527, 685 ],
-        "connected": ['n2l1a02','n2l1a25','n2l1a04','n2l1a23'],
+        "connected": ['n2l1a02','n2l1a04','n2l1a23'],
         "corresponding": ""
     },
     {
@@ -6470,9 +6470,9 @@ var graphN2l1 = [
     },
     {
         "id": "n2l1a16",
-        "name": "entry Student and Visitors Office 2",
+        "name": "entry Student and Visitors Office",
         "coordinates": [ 12159, 932 ],
-        "connected": ['n2l1a26','n2l1a15','n2l1a17'],
+        "connected": ['N2-01a-12','n2l1a15','n2l1a17'],
         "corresponding": ""
     },
     {
@@ -6533,20 +6533,6 @@ var graphN2l1 = [
     },
     {
         "id": "n2l1a25",
-        "name": "int Student and Visitors 1",
-        "coordinates": [ 14129, 635 ],
-        "connected": ['N2-01a-12','n2l1a03'],
-        "corresponding": ""
-    },
-    {
-        "id": "n2l1a26",
-        "name": "int Student and Visitors 2",
-        "coordinates": [ 13419, 735 ],
-        "connected": ['N2-01a-12','n2l1a16'],
-        "corresponding": ""
-    },
-    {
-        "id": "n2l1a27",
         "name": "entry N2l1-MS2",
         "coordinates": [ 15364, 1080 ],
         "connected": ['N2l1-MS2','n2l1a01'],
@@ -6556,7 +6542,7 @@ var graphN2l1 = [
         "id": "N2l1-MS2",
         "name": "Stairs (L1)",
         "coordinates": [15221,1080],
-        "connected": ['n2l1a27'],
+        "connected": ['n2l1a25'],
         "corresponding": ['N2b1-MS2']
     },
     {
@@ -6668,7 +6654,7 @@ var graphN2l1 = [
         "id": "N2-01a-12",
         "name": "Student and Vistors Office",
         "coordinates": [ 13774, 645 ],
-        "connected": ['n2l1a25','n2l1a26'],
+        "connected": ['n2l1a16'],
         "corresponding": ""
     },
     {
@@ -6696,7 +6682,7 @@ var graphN2l1 = [
         "id": "n2l1ab01",
         "name": "entry N2l1-SC1",
         "coordinates": [ 10651, 677 ],
-        "connected": ['N2l1-SC1','n2l1ab22','n2l1ab02'],
+        "connected": ['N2l1-SC1','n2l1a22','n2l1ab02'],
         "corresponding": ""
     },
     {
@@ -12906,7 +12892,7 @@ var graphMSl1 = [
         "id": "msl1n27",
         "name": "entry Umi Sushi 2",
         "coordinates": [ 7671, 2848 ],
-        "connected": ['NS3-01-19','msl1n52','msl1n36','msl1n50','msl1n28','msl1n35','msl1n53'],
+        "connected": ['msl1n52','msl1n36','msl1n50','msl1n28','msl1n35','msl1n53'],
         "corresponding": ""
     },
     {
@@ -12941,13 +12927,13 @@ var graphMSl1 = [
         "id": "msl1n32",
         "name": "entry Grande Cibo 2",
         "coordinates": [ 8454, 3554 ],
-        "connected": ['NS3-01-23','msl1n91','msl1n38'],
+        "connected": ['msl1n91','msl1n38'],
         "corresponding": ""
     },
     {
         "id": "msl1n33",
         "name": "entry The House Steamboat 1",
-        "coordinates": [ 8834, 2853 ],
+        "coordinates": [ 8834, 2848 ],
         "connected": ['NS3-01-24','msl1n31','msl1n55','msl1n50','msl1n36','msl1n35','msl1n53'],
         "corresponding": ""
     },
@@ -12955,7 +12941,7 @@ var graphMSl1 = [
         "id": "msl1n34",
         "name": "entry The House Steamboat 2",
         "coordinates": [ 8978, 3554 ],
-        "connected": ['NS3-01-24','msl1n91','msl1n32','msl1n54'],
+        "connected": ['msl1n91','msl1n32','msl1n54'],
         "corresponding": ""
     },
     {
@@ -13053,7 +13039,7 @@ var graphMSl1 = [
         "id": "msl1n48",
         "name": "beside Hola",
         "coordinates": [ 6815, 2992 ],
-        "connected": ['NS3-01-04','msl1n16','msl1n12','msl1n50','msl1n36','msl1n35','msl1n26','msl1n52','msl1n51','msl1n25','msl1n88'],
+        "connected": ['NS3-01-04','STl1-03','msl1n16','msl1n12','msl1n50','msl1n36','msl1n35','msl1n26','msl1n52','msl1n51','msl1n25','msl1n88','msl1n96'],
         "corresponding": ""
     },
     {
@@ -13081,7 +13067,7 @@ var graphMSl1 = [
         "id": "msl1n52",
         "name": "corridor Bakery Cuisine",
         "coordinates": [ 7311, 2848 ],
-        "connected": ['msl1n26','msl1n27','msl1n48','msl1n16','msl1n17','msl1n18','msl1n19','msl1n24','msl1n25','msl1n88','msl1n28','msl1n29','msl1n30','msl1n31','msl1n33'],
+        "connected": ['msl1n26','msl1n27','msl1n48','msl1n16','msl1n17','msl1n18','msl1n19','msl1n24','msl1n25','msl1n88','msl1n28','msl1n29','msl1n30','msl1n31','msl1n33','msl1n96'],
         "corresponding": ""
     },
     {
@@ -13101,8 +13087,8 @@ var graphMSl1 = [
     {
         "id": "msl1n55",
         "name": "beside The House Steamboat 1",
-        "coordinates": [ 9074, 2863 ],
-        "connected": ['msl1n35','msl1n54','msl1n53','msl1n36'],
+        "coordinates": [ 9074, 2848 ],
+        "connected": ['msl1n33','msl1n35','msl1n54','msl1n53','msl1n36'],
         "corresponding": ""
     },
     {
@@ -13333,7 +13319,7 @@ var graphMSl1 = [
         "id": "msl1n88",
         "name": "beside STl1-03",
         "coordinates": [ 6984, 2661 ],
-        "connected": ['STl1-03','msl1n25','msl1n24','msl1n50','msl1n36','NS3-01-04','msl1n48','msl1n52','msl1n51'],
+        "connected": ['STl1-03','msl1n25','msl1n24','msl1n50','msl1n36','NS3-01-04','msl1n48','msl1n52','msl1n51','msl1n96'],
         "corresponding": ""
     },
     {
@@ -13437,8 +13423,8 @@ var graphMSl1 = [
     {
         "id": "NS3-01-19",
         "name": "Umisushi",
-        "coordinates": [ 7586, 3098 ],
-        "connected": ['msl1n26','msl1n27'],
+        "coordinates": [ 7420, 3165 ],
+        "connected": ['msl1n26'],
         "corresponding": ""
     },
     {
@@ -13465,8 +13451,8 @@ var graphMSl1 = [
     {
         "id": "NS3-01-23",
         "name": "Grande Cibo",
-        "coordinates": [ 8562, 3201 ],
-        "connected": ['msl1n31','msl1n32'],
+        "coordinates": [ 8591, 3000 ],
+        "connected": ['msl1n31'],
         "corresponding": ""
     },
     {
@@ -13480,7 +13466,7 @@ var graphMSl1 = [
         "id": "NS3-01-04",
         "name": "Fun World Café",
         "coordinates": [ 6438, 2661 ],
-        "connected": ['msl1n14','msl1n15','msl1n13','msl1n12','msl1n48','msl1n88','msl1n52'],
+        "connected": ['msl1n96'],
         "corresponding": ""
     },
     {
@@ -13493,8 +13479,8 @@ var graphMSl1 = [
     {
         "id": "NS3-01-24",
         "name": "The House Steamboat Restaurant",
-        "coordinates": [ 8864, 3190 ],
-        "connected": ['msl1n33','msl1n34'],
+        "coordinates": [ 8834, 3000 ],
+        "connected": ['msl1n33'],
         "corresponding": ""
     },
     {
@@ -13718,7 +13704,7 @@ var graphMSl1 = [
         "id": "STl1-03",
         "name": "Stairs (@L1)",
         "coordinates": [ 6854, 2504 ],
-        "connected": ['msl1n88'],
+        "connected": ['msl1n88','msl1n48'],
         "corresponding": ['STl2-03']
     },
     {
@@ -13838,6 +13824,20 @@ var graphMSl1 = [
         "name": "linkage to TCT",
         "coordinates": [ 15786, 3631 ],
         "connected": ['msl1n86','msl1n87'],
+        "corresponding": ""
+    },
+    {
+        "id": "msl1n95",
+        "name": "inside Fun World Café",
+        "coordinates": [ 6440, 2661 ],
+        "connected": ['NS3-01-04','msl1n48','msl1n88','msl1n52'],
+        "corresponding": ""
+    },
+    {
+        "id": "msl1n96",
+        "name": "outside Fun World Café",
+        "coordinates": [6440,2922],
+        "connected": ['msl1n48','msl1n88','msl1n52','msl1n14','msl1n15','msl1n13','msl1n12'],
         "corresponding": ""
     }
 ];

@@ -285,7 +285,7 @@ function forEachRoomFeature(feature, layer) {
     if (building !== "main"){ //not campus map
         if (typeof feature.properties.popupContent !== 'undefined' && feature.properties.popupContent !== '') {
             layer.bindPopup("<table style='width:100%'><tr><td><img src='"+feature.properties.imgSrc+"'/></td><td style='vertical-align: top'><span style='font-size: 16px; line-height: 80%; font-weight: bold'>"+feature.properties.name+"</span><br>"+feature.properties.id+"<br><br>"+feature.properties.popupContent+"</td></tr></table>", {
-                minWidth:400
+                minWidth:450
             });}
         else {layer.bindPopup("<p><b>"+ feature.properties.name + "</b><br>" + feature.properties.id+"</p>");}
 
