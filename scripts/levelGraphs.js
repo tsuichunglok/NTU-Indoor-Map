@@ -2452,7 +2452,7 @@ var graphN4b1 = [
         "id": "n4b1bc06",
         "name": "entry N4b1-SC2",
         "coordinates": [ 4330, 415 ],
-        "connected": ['N4b1-SC2','n4b1bc05'],
+        "connected": ['N4b1-SC2','n4b1bc03'],
         "corresponding": ""
     },
     {

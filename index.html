@@ -53,6 +53,13 @@
 <div class="col-sm" style="padding:0;">
 
   <div class="input-group">
+      <div class="input-group-prepend">
+          <!--<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+          <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Search</a>
+              <a class="dropdown-item" href="#">Directions</a>
+          </div>-->
+      </div>
       <input type="text" placeholder="Search/From" aria-label="From" class="form-control" id="fromTerm">
       <div class="input-group-prepend">
           <button class="btn btn-primary search-btn" type="button" onclick="swapPressed();" id="swapBtn">swap <i class="fas fa-exchange-alt"></i></button>
@@ -128,6 +135,11 @@
               <h5><i class="fas fa-map-signs"></i> Legend</h5>
               <table>
                   <tr>
+                      <td colspan="2" id="academic">Academic Rooms</td>
+                      <td colspan="2" id="nonacademic">Non-Academic Rooms</td>
+                      <td colspan="2" id="restaurants">Restaurants/Food Court</td>
+                  </tr>
+                  <tr>
                       <td><img src="images/male.png" alt="Male Toilet icon" height="30"></td>
                       <td>Male Toilet</td>
                       <td><img src="images/female.png" alt="Female Toilet icon" height="30"></td>
@@ -140,6 +152,7 @@
                       <td>Lift</td>
                       <td><img src="images/Stairs.png" alt="Staircase icon" height="30"></td>
                       <td>Staircase</td>
+                  </tr>
               </table>
           </div>
 
